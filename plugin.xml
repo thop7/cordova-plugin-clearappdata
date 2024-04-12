@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0" id="cordova-plugin-clearappdata" version="1.0">
+
+
+	<name>ClearAppData</name>
+	<description>Clear app data is a cordova plugin to clear app data. Android devices.</description>
+	<license>MIT</license>
+	<keywords>cordova, ionic, app data, android</keywords>
+
+        <js-module src="www/ClearAppData.js" name="ClearAppData">
+            <clobbers target="cordova.plugins.clearAppData" />
+	</js-module>
+
+  <platform name="android">
+
+    <config-file target="res/xml/config.xml" parent="/*">
+		<feature name="ClearAppData">
+			<param name="android-package" value="thop.ClearAppData"/>
+			<param name="onload" value="true" />
+		</feature>
+    </config-file>
+
+    <source-file src="src/android/ClearAppData.java" target-dir="src/thop/clearappdata"/>
+
+  </platform>
+
+</plugin>

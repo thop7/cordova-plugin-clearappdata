@@ -1,0 +1,26 @@
+{
+  "name": "cordova-plugin-clearappdata",
+  "version": "1.0.0",
+  "description": "Clear app data is a cordova plugin to clear app data. Android devices.",
+  "cordova": {
+    "id": "cordova-plugin-clearappdata",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thop7/cordova-plugin-clearappdata"
+  },
+  "keywords": [
+    "cordova",
+    "ionic",
+    "data",
+	  "android"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "thop7",
+  "license": "MIT"
+}
