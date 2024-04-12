@@ -15,12 +15,12 @@
 
     <config-file target="res/xml/config.xml" parent="/*">
 		<feature name="ClearAppData">
-			<param name="android-package" value="thop.ClearAppData"/>
+			<param name="android-package" value="it.thop.clearappdata"/>
 			<param name="onload" value="true" />
 		</feature>
     </config-file>
 
-    <source-file src="src/android/ClearAppData.java" target-dir="src/thop/clearappdata"/>
+    <source-file src="src/android/ClearAppData.java" target-dir="src/it/thop/clearappdata"/>
 
   </platform>
 

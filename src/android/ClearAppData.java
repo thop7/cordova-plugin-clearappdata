@@ -1,4 +1,4 @@
-package tomloprod;
+package it.thop;
 
 import org.apache.cordova.CallbackContext;
 import org.apache.cordova.CordovaInterface;
