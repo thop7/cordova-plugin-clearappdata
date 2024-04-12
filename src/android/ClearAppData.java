@@ -7,6 +7,7 @@ import org.apache.cordova.CordovaWebView;
 import org.json.JSONArray;
 import org.json.JSONException;
 import android.app.ActivityManager;
+import android.content.Context;
 
 public class ClearAppData extends CordovaPlugin {
 	
