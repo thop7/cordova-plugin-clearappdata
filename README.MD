@@ -10,4 +10,4 @@
 
 Cordova:
 
-    cordova plugin add https://github.com/thop/cordova-plugin-clearappdata
+    cordova plugin add git+https://github.com/thop7/cordova-plugin-clearappdata.git
